@@ -11,6 +11,11 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote
   direction: ltr;
 }
 
+#banner {
+  background: url("assets/images/banner-images/banner-image-1.jpg") no-repeat center top;
+  background-size: cover;
+}
+
 body {
   margin: 0;
   padding: 0;
