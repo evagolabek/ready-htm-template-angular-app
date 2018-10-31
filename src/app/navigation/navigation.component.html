@@ -22,7 +22,7 @@
                 <nav id="nav-main">
                         <ul>
                             <li>
-                                <a routerLink="/Home">Home</a>
+                                <a routerLink="/Home" (click)="getActiveTab('home')" [class.active]= "activetab === 'home' ">Home</a>
                             </li>
                             <li>
                                 <a routerLink="/About">About</a>
